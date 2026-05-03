@@ -1,0 +1,14 @@
+{
+  "name": "Platform Migration Sankey - R Environment",
+  "image": "rocker/tidyverse:4.3",
+
+  "onCreateCommand": "Rscript -e \"install.packages(c('networkD3', 'htmlwidgets'), repos='https://cloud.r-project.org', quiet=TRUE)\"",
+
+  "containerEnv": {
+    "R_LIBS_USER": "/usr/local/lib/R/site-library"
+  },
+
+  "postCreateCommand": "echo '✅ R environment ready. networkD3, dplyr, htmlwidgets installed.'",
+
+  "remoteUser": "rstudio"
+}
