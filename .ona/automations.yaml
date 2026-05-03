@@ -1,0 +1,25 @@
+automations:
+  - name: run-migration-sankey
+    description: "Generates a Sankey graph of GraphPad Prism Enterprise license migrations"
+
+    trigger:
+      type: manual
+
+    environment:
+      class: regular
+
+    steps:
+      - name: Verify R environment
+        command: Rscript -e "cat('R version:', R.version$major, R.version$minor, '\n')"
+
+      - name: Run Sankey script
+        command: Rscript platform_migration_sankey.R
+
+      - name: Confirm output
+        command: |
+          if [ -f "sankey_output.html" ]; then
+            echo "✅ sankey_output.html generated successfully"
+          else
+            echo "❌ Output file not found"
+            exit 1
+          fi
