@@ -1,0 +1,501 @@
+user_id,source_license,dest_platform,source_platform,dest_license,migration_date,status
+USR-0001,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-01-13,Migrated
+USR-0002,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-05-05,Migrated
+USR-0003,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-02-22,Retained
+USR-0004,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-10-06,Migrated
+USR-0005,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-08-04,Retained
+USR-0006,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-02-17,Retained
+USR-0007,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-09-15,Retained
+USR-0008,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-10-14,Migrated
+USR-0009,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-11-28,Retained
+USR-0010,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-08-02,Migrated
+USR-0011,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-10-28,Retained
+USR-0012,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-01-04,Migrated
+USR-0013,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-03-22,Migrated
+USR-0014,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-06-23,Migrated
+USR-0015,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-04-20,Migrated
+USR-0016,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-06-21,Churned
+USR-0017,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-13,Retained
+USR-0018,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-06-25,Retained
+USR-0019,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-01-23,Migrated
+USR-0020,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-10-01,Migrated
+USR-0021,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-12,Retained
+USR-0022,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-30,Retained
+USR-0023,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-11-12,Migrated
+USR-0024,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-07-04,Churned
+USR-0025,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-12-26,Migrated
+USR-0026,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-12-04,Retained
+USR-0027,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-28,Retained
+USR-0028,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-04-29,Churned
+USR-0029,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-07-13,Migrated
+USR-0030,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-11-21,Migrated
+USR-0031,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-03-24,Migrated
+USR-0032,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-04-17,Migrated
+USR-0033,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-12-25,Migrated
+USR-0034,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-11-27,Churned
+USR-0035,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-11-21,Retained
+USR-0036,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-05,Retained
+USR-0037,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-13,Retained
+USR-0038,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-11-23,Migrated
+USR-0039,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-04-22,Migrated
+USR-0040,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-01-29,Migrated
+USR-0041,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-01-17,Retained
+USR-0042,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-07-24,Migrated
+USR-0043,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-04-18,Migrated
+USR-0044,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-10-17,Churned
+USR-0045,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-06-10,Migrated
+USR-0046,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-09-12,Retained
+USR-0047,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-11-25,Migrated
+USR-0048,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-05-15,Migrated
+USR-0049,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-10-14,Retained
+USR-0050,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-10-26,Migrated
+USR-0051,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-10-25,Migrated
+USR-0052,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-04-22,Migrated
+USR-0053,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-03-11,Churned
+USR-0054,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-02-16,Migrated
+USR-0055,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-02-26,Migrated
+USR-0056,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-03-22,Retained
+USR-0057,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-08-04,Migrated
+USR-0058,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-07-16,Migrated
+USR-0059,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-08-27,Migrated
+USR-0060,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-10-10,Migrated
+USR-0061,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-01-06,Migrated
+USR-0062,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-02-28,Migrated
+USR-0063,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-10-01,Migrated
+USR-0064,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-11-24,Migrated
+USR-0065,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-05-30,Migrated
+USR-0066,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-08-20,Migrated
+USR-0067,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-14,Retained
+USR-0068,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-04-01,Churned
+USR-0069,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-02-24,Migrated
+USR-0070,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-06-01,Migrated
+USR-0071,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-09-16,Migrated
+USR-0072,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-03-19,Migrated
+USR-0073,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-03-23,Migrated
+USR-0074,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-09-28,Migrated
+USR-0075,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-11-02,Churned
+USR-0076,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-01-10,Migrated
+USR-0077,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-04,Retained
+USR-0078,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-06-06,Migrated
+USR-0079,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-03,Retained
+USR-0080,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-02-10,Migrated
+USR-0081,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-09-05,Retained
+USR-0082,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-09-29,Migrated
+USR-0083,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-03-06,Migrated
+USR-0084,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-10-08,Migrated
+USR-0085,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-09-27,Retained
+USR-0086,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-08-04,Migrated
+USR-0087,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-10-03,Churned
+USR-0088,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-12-19,Migrated
+USR-0089,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-06-08,Retained
+USR-0090,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-12-09,Migrated
+USR-0091,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-08-12,Migrated
+USR-0092,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-08-19,Churned
+USR-0093,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-04-25,Retained
+USR-0094,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-01-11,Retained
+USR-0095,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-04-27,Migrated
+USR-0096,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-01-04,Migrated
+USR-0097,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-11-19,Retained
+USR-0098,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-02-04,Retained
+USR-0099,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-06-18,Churned
+USR-0100,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-01,Retained
+USR-0101,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-09-05,Migrated
+USR-0102,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-03-08,Retained
+USR-0103,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-10-19,Migrated
+USR-0104,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-05-04,Migrated
+USR-0105,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-07-27,Migrated
+USR-0106,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-02-19,Retained
+USR-0107,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-06-30,Migrated
+USR-0108,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-08-27,Migrated
+USR-0109,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-01-28,Migrated
+USR-0110,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-11-26,Migrated
+USR-0111,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-25,Retained
+USR-0112,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-02-25,Migrated
+USR-0113,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-04-07,Retained
+USR-0114,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-03-12,Migrated
+USR-0115,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-05-22,Migrated
+USR-0116,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-02-08,Migrated
+USR-0117,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-10-08,Migrated
+USR-0118,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-11-29,Retained
+USR-0119,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-01-08,Churned
+USR-0120,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-05-01,Churned
+USR-0121,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-09-05,Retained
+USR-0122,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-07-24,Migrated
+USR-0123,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-03-25,Churned
+USR-0124,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-07-18,Migrated
+USR-0125,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-08-20,Migrated
+USR-0126,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-12-22,Migrated
+USR-0127,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-10-11,Churned
+USR-0128,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-09-06,Migrated
+USR-0129,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-31,Retained
+USR-0130,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-01-30,Retained
+USR-0131,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-10-04,Migrated
+USR-0132,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-06-09,Retained
+USR-0133,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-10-26,Retained
+USR-0134,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-09-28,Migrated
+USR-0135,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-09-17,Retained
+USR-0136,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-04-05,Retained
+USR-0137,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-02-04,Retained
+USR-0138,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-04-30,Migrated
+USR-0139,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-10-18,Migrated
+USR-0140,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-10-31,Retained
+USR-0141,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-02-11,Retained
+USR-0142,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-10-25,Migrated
+USR-0143,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-06-10,Migrated
+USR-0144,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-04-14,Churned
+USR-0145,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-06-09,Migrated
+USR-0146,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-21,Retained
+USR-0147,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-11-26,Retained
+USR-0148,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-06-10,Migrated
+USR-0149,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-02-07,Churned
+USR-0150,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-11-14,Retained
+USR-0151,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-02-21,Churned
+USR-0152,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-04-19,Retained
+USR-0153,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-03-08,Migrated
+USR-0154,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-02-05,Churned
+USR-0155,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-07-08,Migrated
+USR-0156,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-08-12,Migrated
+USR-0157,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-12-26,Migrated
+USR-0158,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-11-30,Migrated
+USR-0159,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-12-07,Migrated
+USR-0160,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-06-02,Migrated
+USR-0161,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-02-23,Churned
+USR-0162,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-03-09,Churned
+USR-0163,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-02-24,Migrated
+USR-0164,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-03-20,Migrated
+USR-0165,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-11-05,Migrated
+USR-0166,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-06-24,Retained
+USR-0167,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-11-20,Retained
+USR-0168,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-09-15,Migrated
+USR-0169,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-01-27,Migrated
+USR-0170,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-08-04,Retained
+USR-0171,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-01-23,Migrated
+USR-0172,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-03-07,Retained
+USR-0173,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-05-14,Migrated
+USR-0174,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-08-14,Retained
+USR-0175,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-08-06,Migrated
+USR-0176,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-02-27,Migrated
+USR-0177,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-12-19,Retained
+USR-0178,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-10-06,Churned
+USR-0179,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-08,Retained
+USR-0180,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-03-16,Migrated
+USR-0181,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-01-22,Migrated
+USR-0182,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-01-21,Migrated
+USR-0183,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-04-17,Churned
+USR-0184,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-12-07,Migrated
+USR-0185,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-10-13,Retained
+USR-0186,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-07-27,Churned
+USR-0187,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-03-20,Churned
+USR-0188,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-05-01,Churned
+USR-0189,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-03-31,Migrated
+USR-0190,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-01-13,Churned
+USR-0191,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-06-19,Retained
+USR-0192,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-07-29,Migrated
+USR-0193,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-05-07,Migrated
+USR-0194,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-12-25,Migrated
+USR-0195,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-01-20,Retained
+USR-0196,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-04-23,Migrated
+USR-0197,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-08-23,Retained
+USR-0198,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-04-26,Migrated
+USR-0199,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-12-03,Retained
+USR-0200,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-06-17,Retained
+USR-0201,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-02-05,Migrated
+USR-0202,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-05-22,Churned
+USR-0203,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-09-17,Migrated
+USR-0204,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-10-01,Migrated
+USR-0205,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-01-15,Migrated
+USR-0206,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-13,Retained
+USR-0207,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-15,Retained
+USR-0208,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-11-01,Retained
+USR-0209,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-06-09,Migrated
+USR-0210,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-09-18,Migrated
+USR-0211,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-10-22,Retained
+USR-0212,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-01-23,Retained
+USR-0213,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-01-01,Migrated
+USR-0214,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-10-02,Migrated
+USR-0215,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-12-09,Migrated
+USR-0216,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-08-08,Retained
+USR-0217,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-12-06,Retained
+USR-0218,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-11-15,Churned
+USR-0219,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-03-04,Migrated
+USR-0220,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-06-02,Migrated
+USR-0221,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-12-07,Migrated
+USR-0222,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-07-25,Migrated
+USR-0223,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-10-10,Migrated
+USR-0224,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-08-03,Retained
+USR-0225,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-07-13,Migrated
+USR-0226,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-03-30,Migrated
+USR-0227,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-06-03,Migrated
+USR-0228,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-01-01,Migrated
+USR-0229,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-04-17,Migrated
+USR-0230,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-10-23,Migrated
+USR-0231,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-06-13,Migrated
+USR-0232,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-08-14,Migrated
+USR-0233,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-09-18,Migrated
+USR-0234,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-03-27,Migrated
+USR-0235,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-05-25,Migrated
+USR-0236,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-11-20,Migrated
+USR-0237,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-02-17,Migrated
+USR-0238,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-04-30,Migrated
+USR-0239,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-04-25,Migrated
+USR-0240,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-03-16,Migrated
+USR-0241,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-05,Retained
+USR-0242,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-11-08,Churned
+USR-0243,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-02-07,Migrated
+USR-0244,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-11-18,Migrated
+USR-0245,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-12-22,Migrated
+USR-0246,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-07-23,Migrated
+USR-0247,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-12-01,Retained
+USR-0248,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-02-24,Migrated
+USR-0249,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-04-22,Migrated
+USR-0250,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-12-22,Retained
+USR-0251,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-01-26,Migrated
+USR-0252,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-03-03,Migrated
+USR-0253,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-08-25,Migrated
+USR-0254,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-10-13,Migrated
+USR-0255,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-08-14,Migrated
+USR-0256,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-09-15,Migrated
+USR-0257,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-10-07,Migrated
+USR-0258,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-03-22,Migrated
+USR-0259,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-08-31,Migrated
+USR-0260,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-05-06,Migrated
+USR-0261,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-05-21,Migrated
+USR-0262,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-09-23,Migrated
+USR-0263,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-05-02,Migrated
+USR-0264,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-02-09,Migrated
+USR-0265,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-04-30,Migrated
+USR-0266,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-06-12,Migrated
+USR-0267,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-02-11,Churned
+USR-0268,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-04-28,Retained
+USR-0269,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-03-19,Migrated
+USR-0270,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-02-02,Migrated
+USR-0271,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-06-18,Migrated
+USR-0272,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-07-31,Migrated
+USR-0273,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-08-03,Retained
+USR-0274,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-10-26,Migrated
+USR-0275,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-01-11,Churned
+USR-0276,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-10-21,Migrated
+USR-0277,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-01-04,Migrated
+USR-0278,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-06-01,Churned
+USR-0279,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-08-02,Migrated
+USR-0280,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-10-06,Migrated
+USR-0281,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-04-22,Migrated
+USR-0282,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-05-19,Migrated
+USR-0283,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-01-15,Migrated
+USR-0284,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-12-08,Migrated
+USR-0285,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-07-26,Migrated
+USR-0286,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-08-27,Migrated
+USR-0287,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-11-14,Churned
+USR-0288,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-07-20,Migrated
+USR-0289,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-12-05,Migrated
+USR-0290,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-11-25,Retained
+USR-0291,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-08-24,Migrated
+USR-0292,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-13,Retained
+USR-0293,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-04-18,Migrated
+USR-0294,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-06-21,Migrated
+USR-0295,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-07-13,Migrated
+USR-0296,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-08-03,Migrated
+USR-0297,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-02-11,Migrated
+USR-0298,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-10-03,Migrated
+USR-0299,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-06-28,Retained
+USR-0300,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-02-05,Retained
+USR-0301,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-11-29,Migrated
+USR-0302,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-01-16,Retained
+USR-0303,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-04-12,Churned
+USR-0304,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-11-14,Migrated
+USR-0305,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-03-05,Retained
+USR-0306,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-02-28,Migrated
+USR-0307,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-04-21,Migrated
+USR-0308,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-05-11,Migrated
+USR-0309,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-03-26,Migrated
+USR-0310,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-02-28,Migrated
+USR-0311,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-03-24,Migrated
+USR-0312,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-02-25,Churned
+USR-0313,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-06-08,Migrated
+USR-0314,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-07-11,Migrated
+USR-0315,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-04-11,Migrated
+USR-0316,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-12-19,Retained
+USR-0317,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-05-04,Migrated
+USR-0318,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-06-03,Retained
+USR-0319,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-11-03,Migrated
+USR-0320,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-10-16,Migrated
+USR-0321,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-06-26,Migrated
+USR-0322,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-12-04,Migrated
+USR-0323,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-09-16,Migrated
+USR-0324,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-01-07,Migrated
+USR-0325,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-09-07,Migrated
+USR-0326,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-04,Retained
+USR-0327,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-08-23,Migrated
+USR-0328,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-08-10,Migrated
+USR-0329,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-09-24,Retained
+USR-0330,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-05-18,Churned
+USR-0331,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-10-02,Migrated
+USR-0332,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-08-26,Migrated
+USR-0333,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-10-30,Migrated
+USR-0334,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-05-05,Migrated
+USR-0335,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-02-14,Migrated
+USR-0336,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-08-18,Migrated
+USR-0337,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-08-25,Retained
+USR-0338,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-12-08,Migrated
+USR-0339,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-01-15,Migrated
+USR-0340,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-06-15,Migrated
+USR-0341,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-04-18,Retained
+USR-0342,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-05-12,Migrated
+USR-0343,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-11-01,Migrated
+USR-0344,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-05-21,Migrated
+USR-0345,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-09-21,Migrated
+USR-0346,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-02-13,Churned
+USR-0347,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-27,Retained
+USR-0348,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-05-03,Migrated
+USR-0349,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-11-26,Migrated
+USR-0350,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-08-17,Migrated
+USR-0351,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-02-17,Migrated
+USR-0352,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-07-26,Migrated
+USR-0353,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-06-05,Migrated
+USR-0354,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-07-07,Migrated
+USR-0355,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-09-28,Migrated
+USR-0356,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-10-08,Migrated
+USR-0357,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-12-25,Migrated
+USR-0358,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-06-05,Migrated
+USR-0359,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-03-02,Migrated
+USR-0360,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-06-10,Migrated
+USR-0361,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-10-01,Retained
+USR-0362,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-12-19,Churned
+USR-0363,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-04-20,Retained
+USR-0364,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-05-21,Migrated
+USR-0365,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-09-25,Migrated
+USR-0366,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-02-21,Migrated
+USR-0367,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-05-31,Migrated
+USR-0368,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-04-01,Retained
+USR-0369,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-12-28,Migrated
+USR-0370,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-05-20,Migrated
+USR-0371,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-01-28,Retained
+USR-0372,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-12-23,Migrated
+USR-0373,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-11-22,Churned
+USR-0374,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-09-08,Migrated
+USR-0375,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-01-07,Retained
+USR-0376,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-08-28,Migrated
+USR-0377,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-06-23,Migrated
+USR-0378,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-01-27,Retained
+USR-0379,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-09-01,Migrated
+USR-0380,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-02-03,Retained
+USR-0381,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-02-07,Migrated
+USR-0382,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-12-17,Migrated
+USR-0383,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-03-17,Retained
+USR-0384,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-06-04,Migrated
+USR-0385,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-07,Retained
+USR-0386,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-08-01,Retained
+USR-0387,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-11-12,Migrated
+USR-0388,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-09-24,Retained
+USR-0389,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-08-14,Migrated
+USR-0390,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-10-28,Migrated
+USR-0391,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-06-05,Churned
+USR-0392,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-01-31,Migrated
+USR-0393,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-02-20,Migrated
+USR-0394,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-04-16,Churned
+USR-0395,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-05-15,Migrated
+USR-0396,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-03-21,Migrated
+USR-0397,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-10-09,Retained
+USR-0398,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-01-02,Retained
+USR-0399,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-12-18,Migrated
+USR-0400,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-05-29,Migrated
+USR-0401,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-27,Retained
+USR-0402,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-12-25,Migrated
+USR-0403,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-02-06,Migrated
+USR-0404,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-05-15,Migrated
+USR-0405,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-11-16,Migrated
+USR-0406,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-04-11,Migrated
+USR-0407,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-10-05,Migrated
+USR-0408,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-03-17,Retained
+USR-0409,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-03-13,Churned
+USR-0410,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-03-25,Retained
+USR-0411,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-10-31,Migrated
+USR-0412,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-10-18,Migrated
+USR-0413,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-08-12,Churned
+USR-0414,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-12-18,Retained
+USR-0415,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-07-25,Migrated
+USR-0416,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-09-13,Churned
+USR-0417,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-08-12,Migrated
+USR-0418,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-01-21,Retained
+USR-0419,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-06-14,Churned
+USR-0420,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-01-14,Migrated
+USR-0421,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-12-11,Retained
+USR-0422,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-10-21,Migrated
+USR-0423,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-01-11,Migrated
+USR-0424,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-12-10,Churned
+USR-0425,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-10-22,Migrated
+USR-0426,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-03-30,Retained
+USR-0427,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-11-29,Migrated
+USR-0428,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-05-22,Migrated
+USR-0429,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-10-26,Retained
+USR-0430,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-09-08,Migrated
+USR-0431,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-08-28,Churned
+USR-0432,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-06-19,Migrated
+USR-0433,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-02-23,Migrated
+USR-0434,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-06-17,Migrated
+USR-0435,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-09-10,Migrated
+USR-0436,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-07-24,Migrated
+USR-0437,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-10-08,Migrated
+USR-0438,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-02-15,Retained
+USR-0439,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-06-14,Migrated
+USR-0440,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-25,Retained
+USR-0441,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-01-01,Migrated
+USR-0442,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-10-04,Migrated
+USR-0443,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-01-28,Migrated
+USR-0444,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-04,Retained
+USR-0445,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-09-12,Migrated
+USR-0446,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-01-27,Migrated
+USR-0447,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-10-08,Retained
+USR-0448,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-05-27,Retained
+USR-0449,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-12-23,Migrated
+USR-0450,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-01-15,Migrated
+USR-0451,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-11-07,Churned
+USR-0452,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-12-29,Migrated
+USR-0453,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-10-09,Retained
+USR-0454,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-27,Retained
+USR-0455,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-02-28,Retained
+USR-0456,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-03-01,Migrated
+USR-0457,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-03-19,Migrated
+USR-0458,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-05-29,Migrated
+USR-0459,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-05-19,Migrated
+USR-0460,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-09-04,Migrated
+USR-0461,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-05-04,Churned
+USR-0462,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-03-15,Migrated
+USR-0463,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-11-02,Migrated
+USR-0464,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-03-10,Migrated
+USR-0465,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-05-21,Migrated
+USR-0466,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-07-31,Migrated
+USR-0467,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-09-16,Migrated
+USR-0468,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-01-02,Migrated
+USR-0469,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-06-01,Migrated
+USR-0470,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-10-23,Migrated
+USR-0471,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-09-07,Churned
+USR-0472,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-08-16,Migrated
+USR-0473,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-06-25,Migrated
+USR-0474,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-10-05,Migrated
+USR-0475,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-06-13,Migrated
+USR-0476,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-12-23,Migrated
+USR-0477,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-15,Retained
+USR-0478,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-07-29,Retained
+USR-0479,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-08-30,Retained
+USR-0480,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-07-14,Migrated
+USR-0481,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-12-05,Migrated
+USR-0482,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-11-29,Migrated
+USR-0483,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-09-10,Churned
+USR-0484,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-03-05,Churned
+USR-0485,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-10-29,Migrated
+USR-0486,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-02-21,Migrated
+USR-0487,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-08-13,Migrated
+USR-0488,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-08-21,Retained
+USR-0489,GraphPad Prism Enterprise,GraphPad Prism (Retained),GraphPad Prism,Enterprise,2024-03-14,Retained
+USR-0490,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-12-01,Migrated
+USR-0491,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-02-08,Churned
+USR-0492,GraphPad Prism Enterprise,SPSS,GraphPad Prism,Commercial,2024-05-15,Migrated
+USR-0493,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-12-20,Migrated
+USR-0494,GraphPad Prism Enterprise,JMP Pro,GraphPad Prism,Commercial,2024-02-11,Migrated
+USR-0495,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-12-11,Migrated
+USR-0496,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-07-13,Migrated
+USR-0497,GraphPad Prism Enterprise,Churned - No Replacement,GraphPad Prism,None,2024-11-16,Churned
+USR-0498,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-09-06,Migrated
+USR-0499,GraphPad Prism Enterprise,Python (matplotlib/seaborn),GraphPad Prism,Open Source,2024-01-19,Migrated
+USR-0500,GraphPad Prism Enterprise,R / RStudio,GraphPad Prism,Open Source,2024-04-30,Migrated
