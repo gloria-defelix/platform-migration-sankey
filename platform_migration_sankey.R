@@ -1,7 +1,10 @@
 # ============================================================
 # Platform Migration Dashboard — GraphPad Prism Enterprise
-# Version: 5.0
+# Version: 6.0
 # Description: HTML Dashboard with 2 Sankeys
+#   Sankey 1: Pool → Combined Pool → Destination Platform
+#   Sankey 2: Destination Platform → Training Requirement
+# Library: networkD3
 # ============================================================
 
 # ── 0. Libraries ─────────────────────────────────────────────
@@ -21,27 +24,51 @@ migrations <- read.csv("mock_migration_data.csv", stringsAsFactors = FALSE)
 cat("Total users loaded:", nrow(migrations), "\n")
 
 # ============================================================
-# 2. SANKEY 1 — Pool → Destination
+# 2. SANKEY 1 — Pool → Combined Pool → Destination
+#    3 columns: source pools | Combined Pool | destinations
 # ============================================================
 
-flow_1   <- migrations %>%
-  group_by(source_pool, dest_platform) %>%
-  summarise(value = n(), .groups = "drop")
+# Flow A: Each pool → Combined Pool
+flow_a <- migrations %>%
+  group_by(source_pool) %>%
+  summarise(value = n(), .groups = "drop") %>%
+  mutate(target = "Combined Pool") %>%
+  rename(source = source_pool)
 
-nodes_1  <- c(unique(flow_1$source_pool), unique(flow_1$dest_platform))
-node_df1 <- data.frame(name = nodes_1, stringsAsFactors = FALSE)
+# Flow B: Combined Pool → Destination Platform
+flow_b <- migrations %>%
+  group_by(dest_platform) %>%
+  summarise(value = n(), .groups = "drop") %>%
+  mutate(source = "Combined Pool") %>%
+  rename(target = dest_platform)
 
-links_1  <- flow_1 %>%
-  mutate(source = match(source_pool,   nodes_1) - 1,
-         target = match(dest_platform, nodes_1) - 1) %>%
+# Build node list — order: pools, Combined Pool, destinations
+pool_nodes <- unique(flow_a$source)
+dest_nodes <- unique(flow_b$target)
+all_nodes_1 <- c(pool_nodes, "Combined Pool", dest_nodes)
+node_df1 <- data.frame(name = all_nodes_1, stringsAsFactors = FALSE)
+
+# Map to 0-based indices
+links_a <- flow_a %>%
+  mutate(source = match(source,        all_nodes_1) - 1,
+         target = match(target,         all_nodes_1) - 1) %>%
   select(source, target, value)
 
+links_b <- flow_b %>%
+  mutate(source = match(source,        all_nodes_1) - 1,
+         target = match(target,         all_nodes_1) - 1) %>%
+  select(source, target, value)
+
+links_1 <- bind_rows(links_a, links_b)
+
+# Colors
 colors_1 <- dplyr::case_when(
   node_df1$name == "Pool_1"         ~ "#1A3A5C",
   node_df1$name == "Pool_2"         ~ "#2C5F8A",
   node_df1$name == "Pool_3"         ~ "#4A90D9",
   node_df1$name == "Pool_4"         ~ "#7FB3E8",
   node_df1$name == "Pool_5"         ~ "#B3D4F5",
+  node_df1$name == "Combined Pool"  ~ "#2C3E50",
   node_df1$name == "R / RStudio"    ~ "#16A085",
   node_df1$name == "Jupyter"        ~ "#F39C12",
   node_df1$name == "Other Software" ~ "#8E44AD",
@@ -65,7 +92,7 @@ sankey_1 <- sankeyNetwork(
 # 3. SANKEY 2 — Destination → Training Requirement
 # ============================================================
 
-flow_2   <- migrations %>%
+flow_2 <- migrations %>%
   filter(dest_platform != "Unknown") %>%
   group_by(dest_platform, training_requirement) %>%
   summarise(value = n(), .groups = "drop")
@@ -73,7 +100,7 @@ flow_2   <- migrations %>%
 nodes_2  <- c(unique(flow_2$dest_platform), unique(flow_2$training_requirement))
 node_df2 <- data.frame(name = nodes_2, stringsAsFactors = FALSE)
 
-links_2  <- flow_2 %>%
+links_2 <- flow_2 %>%
   mutate(source = match(dest_platform,        nodes_2) - 1,
          target = match(training_requirement, nodes_2) - 1) %>%
   select(source, target, value)
@@ -107,7 +134,6 @@ sankey_2 <- sankeyNetwork(
 saveWidget(sankey_1, "temp_sankey1.html", selfcontained = TRUE)
 saveWidget(sankey_2, "temp_sankey2.html", selfcontained = TRUE)
 
-# Read them back as raw HTML strings
 s1_html <- paste(readLines("temp_sankey1.html"), collapse = "\n")
 s2_html <- paste(readLines("temp_sankey2.html"), collapse = "\n")
 
@@ -115,10 +141,10 @@ s2_html <- paste(readLines("temp_sankey2.html"), collapse = "\n")
 # 5. SUMMARY STATS
 # ============================================================
 
-total    <- nrow(migrations)
-migrated <- sum(migrations$status == "Migrated")
-pending  <- sum(migrations$status == "Pending")
-top_dest <- names(sort(table(migrations$dest_platform), decreasing = TRUE))[1]
+total     <- nrow(migrations)
+migrated  <- sum(migrations$status == "Migrated")
+pending   <- sum(migrations$status == "Pending")
+top_dest  <- names(sort(table(migrations$dest_platform), decreasing = TRUE))[1]
 top_train <- names(sort(table(migrations$training_requirement), decreasing = TRUE))[1]
 
 # ============================================================
@@ -144,8 +170,7 @@ html_out <- paste0('<!DOCTYPE html>
   .card { background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 8px; padding: 24px; margin-bottom: 24px; }
   .card h2 { font-size: 15px; font-weight: 600; color: #fff; margin-bottom: 4px; }
   .card p { font-size: 12px; color: #888; margin-bottom: 16px; }
-  .sankey-wrap { width: 100%; overflow-x: auto; }
-  .sankey-wrap iframe { width: 100%; height: 500px; border: none; background: transparent; }
+  .sankey-wrap iframe { width: 100%; height: 500px; border: none; }
   .footer { text-align: center; font-size: 11px; color: #444; margin-top: 24px; }
 </style>
 </head>
@@ -186,7 +211,7 @@ html_out <- paste0('<!DOCTYPE html>
 
 <div class="card">
   <h2>License Pool Migration Flow</h2>
-  <p>How users from each Enterprise license pool are migrating to destination platforms</p>
+  <p>5 license pools consolidate into a single Combined Pool, then flow out to destination platforms</p>
   <div class="sankey-wrap">
     <iframe srcdoc="', gsub('"', '&quot;', s1_html), '"></iframe>
   </div>
@@ -206,12 +231,10 @@ html_out <- paste0('<!DOCTYPE html>
 </html>')
 
 writeLines(html_out, "migration_dashboard.html")
-
-# Clean up temp files
 file.remove("temp_sankey1.html")
 file.remove("temp_sankey2.html")
 
 cat("\n✅ Dashboard saved: migration_dashboard.html\n")
-cat("   2 interactive Sankey charts\n")
-cat("   5 summary stat cards\n")
+cat("   Sankey 1: Pool → Combined Pool → Destination (3 columns)\n")
+cat("   Sankey 2: Destination → Training Requirement\n")
 cat("   Total users:", total, "\n")
