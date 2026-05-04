@@ -92,39 +92,73 @@ sankey_1 <- sankeyNetwork(
 # 3. SANKEY 2 — Destination → Training Requirement
 # ============================================================
 
-flow_2 <- migrations %>%
-  filter(dest_platform != "Unknown") %>%
+# Exclude Unknown — no training applies
+migrations_known <- migrations %>%
+  filter(dest_platform != "Unknown")
+
+# Flow A: Destination → Training Requirement
+flow_2a <- migrations_known %>%
   group_by(dest_platform, training_requirement) %>%
   summarise(value = n(), .groups = "drop")
 
-nodes_2  <- c(unique(flow_2$dest_platform), unique(flow_2$training_requirement))
-node_df2 <- data.frame(name = nodes_2, stringsAsFactors = FALSE)
+# Flow B: Training Requirement → Specific Class (Platform — Training)
+flow_2b <- migrations_known %>%
+  mutate(specific_class = paste0(dest_platform, " \u2014 ", training_requirement)) %>%
+  group_by(training_requirement, specific_class) %>%
+  summarise(value = n(), .groups = "drop")
 
-links_2 <- flow_2 %>%
-  mutate(source = match(dest_platform,        nodes_2) - 1,
-         target = match(training_requirement, nodes_2) - 1) %>%
+# Build node list: destinations | training types | specific classes
+dest_nodes_2    <- unique(flow_2a$dest_platform)
+training_nodes  <- unique(flow_2a$training_requirement)
+specific_nodes  <- unique(flow_2b$specific_class)
+all_nodes_2     <- c(dest_nodes_2, training_nodes, specific_nodes)
+node_df2        <- data.frame(name = all_nodes_2, stringsAsFactors = FALSE)
+
+# Map to 0-based indices
+links_2a <- flow_2a %>%
+  mutate(source = match(dest_platform,        all_nodes_2) - 1,
+         target = match(training_requirement, all_nodes_2) - 1) %>%
   select(source, target, value)
 
-colors_2 <- dplyr::case_when(
-  node_df2$name == "R / RStudio"    ~ "#16A085",
-  node_df2$name == "Jupyter"        ~ "#F39C12",
-  node_df2$name == "Other Software" ~ "#8E44AD",
-  node_df2$name == "Self-Study"     ~ "#27AE60",
-  node_df2$name == "Instructor-Led" ~ "#E74C3C",
-  node_df2$name == "Self-Directed"  ~ "#F1C40F",
-  TRUE                               ~ "#BDC3C7"
-)
+links_2b <- flow_2b %>%
+  mutate(source = match(training_requirement, all_nodes_2) - 1,
+         target = match(specific_class,       all_nodes_2) - 1) %>%
+  select(source, target, value)
+
+links_2 <- bind_rows(links_2a, links_2b)
+
+# Assign color group per node for reliable coloring via NodeGroup
+node_df2$group <- sapply(node_df2$name, function(name) {
+  if (name == "Jupyter")                           return("jupyter")
+  if (name == "Other Software")                    return("other")
+  if (name == "R / RStudio")                       return("rstudio")
+  if (name == "Instructor-Led")                    return("instructor")
+  if (name == "Self-Directed")                     return("selfdirected")
+  if (name == "Self-Study")                        return("selfstudy")
+  if (grepl("Jupyter",        name, fixed=TRUE))   return("jupyter")
+  if (grepl("Other Software", name, fixed=TRUE))   return("other")
+  if (grepl("R / RStudio",    name, fixed=TRUE))   return("rstudio")
+  return("unknown")
+})
+
+color_js_2 <- 'd3.scaleOrdinal()
+  .domain(["jupyter","other","rstudio","instructor","selfdirected","selfstudy","unknown"])
+  .range(["#E67E22","#8E44AD","#16A085","#E74C3C","#2980B9","#F1C40F","#BDC3C7"])'
 
 sankey_2 <- sankeyNetwork(
-  Links = as.data.frame(links_2), Nodes = node_df2,
-  Source = "source", Target = "target", Value = "value",
-  NodeID = "name", units = "users", fontSize = 13,
-  nodeWidth = 28, nodePadding = 18, sinksRight = TRUE,
-  colourScale = paste0(
-    'd3.scaleOrdinal().domain([',
-    paste0('"', node_df2$name, '"', collapse = ","),
-    ']).range([', paste0('"', colors_2, '"', collapse = ","), '])'
-  )
+  Links       = as.data.frame(links_2),
+  Nodes       = node_df2,
+  Source      = "source",
+  Target      = "target",
+  Value       = "value",
+  NodeID      = "name",
+  NodeGroup   = "group",
+  units       = "users",
+  fontSize    = 11,
+  nodeWidth   = 28,
+  nodePadding = 14,
+  sinksRight  = TRUE,
+  colourScale = color_js_2
 )
 
 # ============================================================
@@ -219,7 +253,7 @@ html_out <- paste0('<!DOCTYPE html>
 
 <div class="card">
   <h2>Destination Platform &mdash; Training Requirements</h2>
-  <p>Training needs of migrated users by destination platform (Unknown destinations excluded)</p>
+  <p>Destination platforms flow into training types, then into specific platform training classes (Unknown destinations excluded)</p>
   <div class="sankey-wrap">
     <iframe srcdoc="', gsub('"', '&quot;', s2_html), '"></iframe>
   </div>
