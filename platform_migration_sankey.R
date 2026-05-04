@@ -17,7 +17,7 @@ library(htmlwidgets)
 # 1. LOAD DATA
 # ============================================================
 
-migrations <- read.csv("mock_migration_data_v2.csv", stringsAsFactors = FALSE)
+migrations <- read.csv("mock_migration_data.csv", stringsAsFactors = FALSE)
 cat("Total users loaded:", nrow(migrations), "\n")
 
 # ============================================================
